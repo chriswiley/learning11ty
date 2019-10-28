@@ -4,7 +4,9 @@
   "description": "Learning how to use Eleventy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/chriswiley/learning11ty/issues"
   },
-  "homepage": "https://github.com/chriswiley/learning11ty#readme"
+  "homepage": "https://github.com/chriswiley/learning11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
 }
