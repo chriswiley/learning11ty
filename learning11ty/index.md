@@ -2,6 +2,4 @@
 
 This is the main page of the site
 
-[about](about/index.html)
-
-[contact me](contactme/index.html)
+[about](about/index.html) | [contact me](contactme/index.html) | [services](services/index.html)
