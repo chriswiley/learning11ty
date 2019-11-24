@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/chriswiley/learning11ty#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0"
+    "@11ty/eleventy": "^0.9.0",
+    "eslint": "^6.7.0"
+  },
+  "dependencies": {
+    "acorn": "^7.1.0"
   }
 }
